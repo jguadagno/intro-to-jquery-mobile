@@ -1,4 +1,8 @@
-intro-to-jquery-mobile
+Introduction to jQuery Mobile
 ======================
 
-The site for JGuadagno's Introduction to jQuery Mobile talk.
+This is the source code for [Joseph Guadagno's](http://josephguadagno.net) talk on Introduction to jQuery Mobile.
+
+See the [site](http://introtojquery.azurewebsites.net) live.
+
+Visit the jQuery Mobile [site](http://jquerymobile.com/).
