@@ -19,8 +19,9 @@
         </div><!-- /header -->
 
         <div role="main" class="ui-content">
-            <p>Page 1</p>
-            <a href="#secondPage">Second Page</a>
+            <h1>Page 1</h1>
+            <a class="ui-button" href="#secondPage">Second Page</a>
+            <p>Note: if this page is loaded from another jQuery Mobile page it will not load because of the way jQuery Mobile loads pages via <a href="http://demos.jquerymobile.com/1.4.5/navigation-linking-pages/#Defaultlinkbehavior:Ajax" target="_blank">Ajax</a>. You can get the <a href="https://github.com/ToddThomson/jQuery-Mobile-Subpage-Widget" target="_blank">subpage plugin</a> if you need that functionality.  For this site, just reload the page to see it in action.</p>
         </div> <!-- /content -->
 
         <div data-role="footer">
@@ -32,12 +33,14 @@
     <div data-role="page" id="secondPage">
 
         <div data-role="header">
+            <a href="#" data-rel="back" class="ui-btn ui-btn-inline ui-corner-all ui-icon-back ui-btn-icon-left">Back</a>
             <h1>jQuery Mobile - Multiple Pages Single File</h1>
+            <a href="/index.html" class="ui-btn ui-btn-inline ui-corner-all ui-icon-home ui-btn-icon-left ui-btn-right">Home</a>
         </div><!-- /header -->
 
         <div role="main" class="ui-content">
-            <p>Page 2</p>
-            <a href="#mainPage">Main Page</a>
+            <h1>Page 2</h1>
+            <a class="ui-button" href="#mainPage">Main Page</a>
         </div> <!-- /content -->
 
         <div data-role="footer">
